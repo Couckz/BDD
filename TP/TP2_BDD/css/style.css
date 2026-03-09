@@ -4,12 +4,44 @@ header {
     background-color: gray;
 }
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 222, 248);
+}
+
+body section h2 {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 header img {
     width: 40%;
     position: relative;
     
 }
 
+.contenu {
+    padding-top:200px;
+
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+.desc {
+    padding: 50px;
+}
+
+.cl {
+    padding-left: 2000px;
+}
+.pad {
+    padding-left: 50px;
+}
 header h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: red 10 2px;
