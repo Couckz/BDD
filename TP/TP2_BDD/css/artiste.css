@@ -1,0 +1,81 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(79, 93, 149);
+    margin-top: 0px;
+    padding: 0px;
+    height: 100px;
+}
+
+header h1{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(218, 230, 254);
+    margin: 0;
+}
+.Groupe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Groupe img {
+    width: 500px;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.Groupe h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+
+.Groupe p {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: block;
+    padding-left: 250px;
+    padding-right: 200px;
+}
+
+.membre {
+    display: flex;
+}
+
+.membre img {
+    width: 100px;
+    height: 150px;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left:170px;
+    margin-right: 20px;
+}
+
+
+.membre p {
+    font-size: 11px;
+    padding-left: 160px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+}
+
+.video {
+    padding-top: 20px;
+    padding-left: 450px;
+}
+
+.video p {
+    padding-left: 110px;
+    font-size: large;
+    font-family: cursive;
+}
